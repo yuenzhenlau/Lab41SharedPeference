@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        textViewName.findViewById(R.id.textViewName);
-        imageViewProfile.findViewById(R.id.imageViewProfile);
+        textViewName = findViewById(R.id.textViewName);
+        imageViewProfile = findViewById(R.id.imageViewProfile);
 
     }
 
